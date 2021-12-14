@@ -7,7 +7,7 @@
     </div>
     <h2 class="habitaciones-title">
         Habitaciones disponibles
-      </h2>
+    </h2>
       <!--
       <table class="visualizar-habitaciones">
         <tr>
@@ -32,7 +32,7 @@ export default {
   name: "Home",
   data: function() {
     return {
-      username: localStorage.getItem("username") || "none",
+      username: localStorage.getItem("username") || "",
     };
   },
 };
